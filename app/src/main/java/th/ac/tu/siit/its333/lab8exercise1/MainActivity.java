@@ -28,7 +28,7 @@ public class MainActivity extends ActionBarActivity {
             t.show();
         }
         else {
-            Intent i = new Intent(this, MessageActivity.class);
+            Intent i =  new Intent(this, MessageActivity.class);
             i.putExtra("user", user);
             startActivity(i);
         }
